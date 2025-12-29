@@ -18,7 +18,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Page config
 st.set_page_config(page_title="Gemini Chat", page_icon="🤖")
-st.title("🤖 Axis AI Chatbot")
+st.title("🤖 A k AI Chatbot")
 
 # Initialize chat history
 if "chat" not in st.session_state:
@@ -71,6 +71,7 @@ if st.sidebar.button("🔄 Reset Conversation"):
 
 
 st.markdown('** Design And Develop by: Alok Kumar**')
+
 
 
 
